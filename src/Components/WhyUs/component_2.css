@@ -1,0 +1,121 @@
+#why_us {
+    font-size: 42px;
+    font-weight: 600;
+    color: #1B776F;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .rect4div {
+    background-image: url('path/to/your/image.svg');
+    background-size: cover; /* Adjust as needed */
+    /* background-repeat: no-repeat; /* Adjust as needed */
+    /* background-position: center; Adjust as needed */
+
+.para{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 100%;
+}
+
+.container-comp2 {
+    position: relative;
+    display: inline-block; /* Ensure it wraps tightly around the content */
+  }
+  
+  .text, .text1, .text2{
+    position: absolute;
+    top: 0; /* Adjust this value to move the text vertically */
+    margin-top: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .my-svg {
+    display: block; /* Make sure the SVG is block-level */
+    margin-top: 20px; /* Adjust this value to create space between text and SVG */
+  }
+
+  #text-title, #text-title1, #text-title2{
+    margin-top: 10%;
+  }
+
+  .text1{
+    color: black;
+    left: 0%;
+    padding-top: 50px;
+  }
+
+  .text2{
+    color: black;
+    right: 0%;
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  /* #why-us-main{
+    /* background-color: rgb(7, 138, 114); */
+    /* background-image: url('../../Resources/2nd_page_bg.png'); /* Path to your image */
+    /* background-size: cover; Resize the background image to cover the entire container */
+    /* background-repeat: no-repeat; Prevent the background image from repeating */
+    /* background-attachment: fixed; Keep the background image fixed in place */
+    /* background-position: center; Center the background image */
+    /* margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+  } */ 
+
+  #why-us-main{
+    position: relative;
+  }
+
+  .component1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Base component */
+  }
+  
+  .component2, .component3, .component4, .component5, .component6, .component7, .component8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+    /* All other components layered on top */
+    transform: translateX(-50%);
+  }
+
+  .whyusBanner{
+    position: relative;
+    display: inline-block;
+  }
+  #why_us{
+    position: absolute;
+    top: 0; /* Adjust this value to move the text vertically */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .whyusRect1{
+    position: absolute;
+    top: 0.1%; /* Adjust this value to move the text vertically */
+    left: 65.1%;
+    text-align: center;
+  }
+  .whyusRect2{
+    position: absolute;
+    top: 9%; /* Adjust this value to move the text vertically */
+    left: 35%;
+    text-align: center;
+  }
+
+  #whyus-container{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
